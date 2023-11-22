@@ -1,0 +1,10 @@
+C:\Users\edilson.csilva10\source\repos\Arquivoemtexto\Arquivoemtexto\bin\Debug\Arquivoemtexto.exe.config
+C:\Users\edilson.csilva10\source\repos\Arquivoemtexto\Arquivoemtexto\bin\Debug\Arquivoemtexto.exe
+C:\Users\edilson.csilva10\source\repos\Arquivoemtexto\Arquivoemtexto\bin\Debug\Arquivoemtexto.pdb
+C:\Users\edilson.csilva10\source\repos\Arquivoemtexto\Arquivoemtexto\obj\Debug\Arquivoemtexto.csproj.AssemblyReference.cache
+C:\Users\edilson.csilva10\source\repos\Arquivoemtexto\Arquivoemtexto\obj\Debug\Arquivoemtexto.Form1.resources
+C:\Users\edilson.csilva10\source\repos\Arquivoemtexto\Arquivoemtexto\obj\Debug\Arquivoemtexto.Properties.Resources.resources
+C:\Users\edilson.csilva10\source\repos\Arquivoemtexto\Arquivoemtexto\obj\Debug\Arquivoemtexto.csproj.GenerateResource.cache
+C:\Users\edilson.csilva10\source\repos\Arquivoemtexto\Arquivoemtexto\obj\Debug\Arquivoemtexto.csproj.CoreCompileInputs.cache
+C:\Users\edilson.csilva10\source\repos\Arquivoemtexto\Arquivoemtexto\obj\Debug\Arquivoemtexto.exe
+C:\Users\edilson.csilva10\source\repos\Arquivoemtexto\Arquivoemtexto\obj\Debug\Arquivoemtexto.pdb
