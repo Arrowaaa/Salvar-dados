@@ -217,6 +217,7 @@
             this.cbxnome.Name = "cbxnome";
             this.cbxnome.Size = new System.Drawing.Size(186, 21);
             this.cbxnome.TabIndex = 16;
+            this.cbxnome.SelectedIndexChanged += new System.EventHandler(this.cbxnome_SelectedIndexChanged);
             // 
             // label10
             // 

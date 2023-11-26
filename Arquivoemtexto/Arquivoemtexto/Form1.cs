@@ -1,6 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Arquivoemtexto
 {
@@ -9,6 +10,7 @@ namespace Arquivoemtexto
         public Form1()
         {
             InitializeComponent();
+    
         }
         string LerArquivo(string endereco)
         {
@@ -38,7 +40,7 @@ namespace Arquivoemtexto
             }
 
             string juncao = texto + " | " + telefone + " | " + Email;
-            string caminho = "C:\\Users\\edilson.csilva10\\source\\repos\\Arquivoemtexto/Dados.txt";
+            string caminho = "C:\\Users\\mad_f\\source\\repos\\Salvar-dados\\Arquivoemtexto.txt";
             string textoAntigo = LerArquivo(caminho);
 
             using(StreamWriter sw = new StreamWriter(caminho))
@@ -55,7 +57,7 @@ namespace Arquivoemtexto
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            string caminho = "C:\\Users\\edilson.csilva10\\source\\repos\\Arquivoemtexto/Dados.txt";
+            string caminho = "C:\\Users\\mad_f\\source\\repos\\Salvar-dados\\Arquivoemtexto.txt";
             string texto = LerArquivo(caminho);
             Array lista = texto.Split('\n');
 
@@ -70,5 +72,31 @@ namespace Arquivoemtexto
             }
 
         }
+
+        private void cbxnome_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string selectedItem = cbxnome.SelectedItem.ToString();
+            string caminho = "C:\\Users\\mad_f\\source\\repos\\Salvar-dados\\Arquivoemtexto.txt";
+            string texto = LerArquivo(caminho);
+            string[] lista = texto.Split('\n');
+
+            foreach (string pessoa in lista)
+            {
+                string[] dados = pessoa.Split('|');
+
+
+                if (selectedItem == dados[0].Trim())
+                {
+               
+                    label5.Text = dados[0].Trim();
+                    label7.Text = dados[1].Trim();
+                    label9.Text = dados[2].Trim();
+
+
+                    return;
+                }
+            }
+        }
     }
+    
 }
